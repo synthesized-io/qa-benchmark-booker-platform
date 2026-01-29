@@ -34,9 +34,6 @@ const HomeNav: React.FC<NavProps> = ({ branding }) => {
                 <li className="nav-item">
                     <a className="nav-link" href="/#contact">Contact</a>
                 </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="/admin">Admin</a>
-                </li>
                 </ul>
             </div>
             </div>

@@ -80,9 +80,7 @@ export default function Availability() {
                                     <DatePicker wrapperClassName="dateWrapper" dateFormat="P" className='form-control' selected={availabilityDates?.checkOut} onChange={(date) => updateState(date, 'checkOut')} />
                                 </div>
                                 <div className="col-2"></div>
-                                <div className="col-8 mt-4">
-                                    <button type="button" className="btn btn-primary w-100 py-2" onClick={checkAvailability}>Check Availability</button>
-                                </div>
+                                <div className="col-8 mt-4"></div>
                                 <div className="col-2"></div>
                                 </div>
                             </form>

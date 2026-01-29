@@ -74,17 +74,7 @@ const Report: React.FC<ReportProps> = ({ defaultDate }) => {
 
   return (
     <div>
-      <Calendar
-        defaultDate={defaultDate}
-        onSelectSlot={addBooking}
-        selectable
-        localizer={localizer}
-        defaultView="month"
-        popup={true}
-        events={report}
-        style={{ height: "75vh" }}
-        views={['month']}
-      />
+      <div></div>
     </div>
   );
 };

@@ -31,15 +31,7 @@ const HotelMap: React.FC<HotelMapProps> = ({ branding }) => {
           <div className="col-lg-6">
             <div className="card shadow-sm h-100">
               <div className="card-body p-0">
-              <Map
-                defaultCenter={[branding?.map.latitude, branding?.map.longitude]}
-                defaultZoom={17}
-                provider={getProvider}
-                mouseEvents={false}
-              >
-              
-                {marker}
-              </Map>
+              <div></div>
               </div>
             </div>
           </div>

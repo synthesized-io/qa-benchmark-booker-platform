@@ -31,6 +31,8 @@ const HotelContact: React.FC<HotelContactProps> = ({ contactDetails }) => {
   const [submitted, setSubmitted] = useState(false);
   const [errorMessages, setErrors] = useState<string[]>([]);
 
+  return <></>;
+
   const updateContact = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { id, value } = event.target;
     setContactDetails(prevContact => ({

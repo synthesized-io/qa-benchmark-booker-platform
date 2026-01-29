@@ -126,7 +126,7 @@ const Branding: React.FC = () => {
           type="text" 
           className="form-control" 
           id="name" 
-          value={branding.name} 
+          value="" 
           onChange={updateState} 
           placeholder="Enter B&amp;B name" 
         />

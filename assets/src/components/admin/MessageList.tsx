@@ -38,7 +38,7 @@ const MessageList: React.FC = () => {
       const response = await fetch('/api/message');
       if (response.ok) {
         const data = await response.json();
-        setMessages(data.messages || []);
+        setMessages([]);
       }
     } catch (error) {
       console.error('Error fetching messages:', error);
